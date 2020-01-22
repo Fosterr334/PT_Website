@@ -10,12 +10,31 @@ main {
 
 #stock1 {
     margin-top     : 1%;
-    width          : 78.5%;
+    width          : 99.5%; 
     height         : 80%;
+    border-style   : Solid;
+    border-width   : 2px;
+    border-color   : lightgrey;
 }
 #stock2 {
     margin-top     : 1%;
-    width          : 210%;
+    width          : 100.5%;
+    height         : 80%;
+    border-style   : Solid;
+    border-width   : 2px;
+    border-color   : lightgrey;
+}
+#stock3 {
+    margin-top     : 1%;
+    width          : 100.5%;
+    height         : 80%;
+    border-style   : Solid;
+    border-width   : 2px;
+    border-color   : lightgrey;
+}
+
+.centerText {
+    text-align : center;
 }
 
 
