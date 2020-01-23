@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robert Foster PT</title>
+    <!-- Material Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="./css/styleContact.css">
+    <!-- Used as an example only to position the footer at the end of the page.
+    You can delete these styles or move it to your custom css file -->
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="cyan">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#" class="brand-logo">Robert Foster PT INC.</a>
+                    <a href="#" data-activates="mobile-menu" class="button-collapse"><i
+                            class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Service Area</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Service Area</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="mainContainer">
+            <div class="row">
+                <!-- FORM -->
+                <div class="col s12 m4 l4">
+                    <h5 class="blueText">Get in touch with</h5>
+                    <h4 class="blueText">Robert Foster PT Inc</h4>
+                    <form action="">
+                        <div class="input-field col s12 l6">
+                            <input type="text" id="first_name" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s12 l6">
+                            <input type="text" id="last_name" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input type="email" id="email" class="validate">
+                            <label for="email" data-error="wrong" data-success="right">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Your Message</label>
+                        </div>
+                    </form>
+                    <button class="btn waves-effect waves-light" id="submitBtn" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                    <h5 class="blueText centerText harderPushTop">Or gives us a call at</h5>
+                    <h3 class="blueText centerText pushTop">(949)395-7417</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer cyan">
+        <div class="row">
+            <h5 class="white-text centerText">Let Us Assist You On Your Road To Recovery</h5>
+        </div>
+    </footer>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Materialize JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+        $("document").ready(function () {
+            $(".button-collapse").sideNav();
+        });
+    </script>
+</body>
+
+</html>

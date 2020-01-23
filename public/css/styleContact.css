@@ -1,0 +1,26 @@
+.centerText {
+    text-align       : center;
+}
+
+#mainContainer{
+    margin-top       : 3%;
+}
+
+.blueText{
+    color            : #81BAFF;
+    font-weight      : bold;
+    margin-left      : 1%;
+}
+
+#submitBtn{
+    background-color : #81BAFF;
+    margin-left      : 1%;
+}
+
+.pushTop{
+    margin-top       : 5%;
+}
+
+.harderPushTop{
+    margin-top       : 15%;
+}
